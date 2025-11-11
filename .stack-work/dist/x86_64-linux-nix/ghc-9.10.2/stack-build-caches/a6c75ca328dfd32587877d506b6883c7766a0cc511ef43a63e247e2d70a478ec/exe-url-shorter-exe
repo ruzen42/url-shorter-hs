@@ -1,0 +1,18 @@
+/home/ruzen42/src/url-shorter/.stack-work/dist/x86_64-linux-nix/ghc-9.10.2/build/url-shorter-exe/autogen/Paths_url_shorter.hs:
+  hash: a3c89ec501cbcfd538549ad8cc21eda29a60d25c5929297f9b13bab055d5a333
+/home/ruzen42/src/url-shorter/.stack-work/dist/x86_64-linux-nix/ghc-9.10.2/build/url-shorter-exe/autogen/cabal_macros.h:
+  hash: 7d764899e209a84e97a170275895eb937ae4224b49c0e5b409f701fd63b6d443
+/home/ruzen42/src/url-shorter/CHANGELOG.md:
+  hash: a13eb0ae40f607e9c20f4b4e3a6cfeca749d79a46ae6d1fac5c6735bd53dc636
+/home/ruzen42/src/url-shorter/README.md:
+  hash: 0b083ae8fa63d3e76058e11e049446900701585f5217bcb39f094b4732dfc247
+/home/ruzen42/src/url-shorter/app/Main.hs:
+  hash: 0e595ace5fad2c750ba941c562bf8a81b40e42db781cb5d546cb859c9a765458
+/home/ruzen42/src/url-shorter/package.yaml:
+  hash: 45a8b428bb65246a2833ce0bf8ec28f5f35ebcae2ead01134b24ebd1dd567642
+/home/ruzen42/src/url-shorter/url-shorter.cabal:
+  hash: dd1b3c9cf7b75e48bc58a89ddba4e8966070fa34c93123e50828dd7570d37fef
+/nix/store/1v9ggwkpb0xy708s11s1g9fhinn3b06r-glibc-2.40-66-dev/include/stdc-predef.h:
+  hash: 8db4f65e62cade8ae4d9b77960ee6aee093255acc1b637e3fb37d79179733b15
+/nix/store/9cz10cwlb0bbvnq7cihrpf18cgsb9fqs-ghc-9.10.2/lib/ghc-9.10.2/lib/x86_64-linux-ghc-9.10.2/rts-1.0.2/include/ghcversion.h:
+  hash: c52a97980facd4ffbe17b1f1eec95b8061f4dbbf4ce69384e851f410cb70dc0a
