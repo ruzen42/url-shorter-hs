@@ -26,6 +26,7 @@ import Network.HTTP.Types ()
 import Network.Wai.Internal ()
 import Data.Bits ()
 import Data.Char ()
+import GHC.Conc (setNumCapabilities)
 
 data UrlRequest = UrlRequest
   { url :: String
@@ -47,8 +48,9 @@ api = Proxy
 
 type Store = M.Map String String
 
-startApp :: Int -> IO ()
-startApp port = do
+startApp :: Int -> Int -> IO ()
+startApp port procs = do
+    setNumCapabilities procs
     store <- newMVar M.empty
     putStrLn $ "Running on https://localhost:" ++ show port
     run port (app store)
