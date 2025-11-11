@@ -1,12 +1,14 @@
 cabal-version: 2.2
 
--- This file has been generated from package.yaml by hpack version 0.38.1.
+-- This file has been generated from package.yaml by hpack version 0.38.0.
 --
 -- see: https://github.com/sol/hpack
 
 name:           url-shorter
 version:        0.1.0.0
+synopsis:       url shorter microservice
 description:    Please see the README on GitHub at <https://github.com/ruzen42/url-shorter#readme>
+category:       Web
 homepage:       https://github.com/ruzen42/url-shorter#readme
 bug-reports:    https://github.com/ruzen42/url-shorter/issues
 author:         Jaroslav Mihajlenko
@@ -36,7 +38,12 @@ library
   build-depends:
       aeson
     , base >=4.7 && <5
+    , bytestring
+    , containers
+    , http-types
+    , pureMD5
     , servant-server
+    , text
     , wai
     , warp
   default-language: Haskell2010
@@ -53,7 +60,12 @@ executable url-shorter-exe
   build-depends:
       aeson
     , base
+    , bytestring
+    , containers
+    , http-types
+    , pureMD5
     , servant-server
+    , text
     , url-shorter
     , wai
     , warp
@@ -72,10 +84,15 @@ test-suite url-shorter-test
   build-depends:
       aeson
     , base
+    , bytestring
+    , containers
     , hspec
     , hspec-wai
     , hspec-wai-json
+    , http-types
+    , pureMD5
     , servant-server
+    , text
     , url-shorter
     , wai
     , warp
