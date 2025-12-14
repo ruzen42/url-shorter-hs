@@ -25,7 +25,7 @@ dependencies:
 - containers
 - http-types
 - bytestring
-- pureMD5
+- crypton
 
 ghc-options:
 - -Wall

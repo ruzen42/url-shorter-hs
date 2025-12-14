@@ -40,8 +40,8 @@ library
     , base >=4.7 && <5
     , bytestring
     , containers
+    , crypton
     , http-types
-    , pureMD5
     , servant-server
     , text
     , wai
@@ -62,8 +62,8 @@ executable url-shorter-exe
     , base
     , bytestring
     , containers
+    , crypton
     , http-types
-    , pureMD5
     , servant-server
     , text
     , url-shorter
@@ -86,11 +86,11 @@ test-suite url-shorter-test
     , base
     , bytestring
     , containers
+    , crypton
     , hspec
     , hspec-wai
     , hspec-wai-json
     , http-types
-    , pureMD5
     , servant-server
     , text
     , url-shorter
